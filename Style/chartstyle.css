@@ -11,43 +11,43 @@
 .target-btn {
     font-size: 18px;
     cursor: pointer;
-    opacity: 0;
+    opacity: 100;
     position: fixed;
 }
 
 /*planets*/
 
 #earth{
-    top: 442px;
-    left: 1137px;
+    top: 395px;
+    left: 1022px;
     width: 45px;
     height: 40px;
 }
 
 #venus{
-    top: 600px;
-    left: 983px;
+    top: 540px;
+    left: 883px;
     width: 37px;
     height: 35px;
 }
 
 #mercury{
-    top: 530px;
-    left: 794px;
+    top: 480px;
+    left: 713px;
     width: 30px;
     height: 30px;
 }
 
 #mars{
-    top: 290px;
-    left: 1094px;
+    top: 260px;
+    left: 983px;
     width: 35px;
     height: 35px;    
 }
 
 #deimos{
-    top: 330px;
-    left: 975px;
+    top: 300px;
+    left: 875px;
     width: 35px;
     height: 25px;
 }
