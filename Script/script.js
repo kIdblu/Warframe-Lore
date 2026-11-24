@@ -1,7 +1,7 @@
 
 document.addEventListener("keydown", function(event){
     if (event.key === "Escape" || event.key === " ") {
-        window.location.href = "../Index.html";
+        window.location.href = "../index.html";
     }
 })
 
