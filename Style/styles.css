@@ -100,5 +100,8 @@ img{
 #return{
     font-size: 35px;
     position: absolute;
-    left: 10px
+    left: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: white;
 }
