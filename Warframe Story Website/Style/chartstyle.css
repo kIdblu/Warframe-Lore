@@ -1,0 +1,53 @@
+
+/*zoom*/
+#main{
+    transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.8s ease;
+}
+.zoom-in {
+    transform: scale(5); /* Adjust how deep the zoom goes */
+}
+
+/* planet Buttons */
+.target-btn {
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0;
+    position: fixed;
+}
+
+/*planets*/
+
+#earth{
+    top: 442px;
+    left: 1137px;
+    width: 45px;
+    height: 40px;
+}
+
+#venus{
+    top: 600px;
+    left: 983px;
+    width: 37px;
+    height: 35px;
+}
+
+#mercury{
+    top: 530px;
+    left: 794px;
+    width: 30px;
+    height: 30px;
+}
+
+#mars{
+    top: 290px;
+    left: 1094px;
+    width: 35px;
+    height: 35px;    
+}
+
+#deimos{
+    top: 330px;
+    left: 975px;
+    width: 35px;
+    height: 25px;
+}

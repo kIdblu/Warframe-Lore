@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    font-size: larger;
+    color: white;
+    outline: black;
+    display: flex;
+}
+
+dialog{
+    width: 90%;
+    max-width: 500px;
+    max-height: 500px;       /* 1. Restrict the height */
+    overflow-y: auto;        /* 2. Add vertical scrollbar when content overflows */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.75);
+    align-self: center;
+    justify-self: center;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    scrollbar-width: none; 
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    top: -20px;
+    padding: 10px 0;
+}
+
+/*Gallery*/
+#gallery{
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+#imgbox{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth; /* Makes the arrow clicks glide smoothly */
+    gap: 10px;
+
+    border-radius: 15px;
+
+    /* Hide scrollbar for Firefox and IE/Edge */
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+img{
+    display: none;
+    padding: 0px;
+    flex-shrink: 0;         /* Prevents images from squishing to fit the container */
+    width: 500px;           /* Change this to adjust image width */
+    height: 250px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
