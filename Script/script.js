@@ -1,9 +1,13 @@
 
 document.addEventListener("keydown", function(event){
     if (event.key === "Escape" || event.key === " ") {
-        window.location.href = "../index.html";
+        returntoMain()
     }
 })
+
+function returntoMain(){
+  window.location.href = "../index.html";
+}
 
 function openZoom(event, Thumbnail){
     
